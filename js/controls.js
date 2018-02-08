@@ -37,7 +37,7 @@ function getControl(i, control) {
 function buttonControl(field, key, state) {
 
   // contruct URL to send request
-  var url = 'http://api.thingspeak.com/update';
+  var url = 'https://api.thingspeak.com/update';
 
   // contruct data to send
   var data = 'api_key=' + key + '&' +
